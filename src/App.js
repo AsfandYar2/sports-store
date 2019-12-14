@@ -13,10 +13,11 @@ function App() {
   return (
     <div>
       <Router>
-        {/* <HashRouter basename="/"> */}
-        <Navbar />
-        {/* </HashRouter> */}
-        <Home />
+        <HashRouter basename="/">
+          <Navbar />
+
+          <Home />
+        </HashRouter>
       </Router>
     </div>
   );
