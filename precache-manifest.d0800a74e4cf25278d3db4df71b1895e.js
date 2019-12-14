@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "162afb42bbfef4100f81b288cb1a4f58",
+    "revision": "4a86c63e5105ccb8d8074b3c286a4afe",
     "url": "/sports-store/index.html"
   },
   {
-    "revision": "b512d9be9198cf124b3b",
+    "revision": "701671a3c12702406843",
     "url": "/sports-store/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "a42e769daada997f59d5",
+    "revision": "92b6a3b2224027063a08",
     "url": "/sports-store/static/css/main.7ec7f220.chunk.css"
   },
   {
-    "revision": "b512d9be9198cf124b3b",
-    "url": "/sports-store/static/js/2.b6e19962.chunk.js"
+    "revision": "701671a3c12702406843",
+    "url": "/sports-store/static/js/2.506c5b7d.chunk.js"
   },
   {
-    "revision": "a42e769daada997f59d5",
-    "url": "/sports-store/static/js/main.c5671941.chunk.js"
+    "revision": "92b6a3b2224027063a08",
+    "url": "/sports-store/static/js/main.9cc28fde.chunk.js"
   },
   {
     "revision": "1278ed5d296cf86f024e",
