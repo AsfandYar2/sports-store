@@ -1,12 +1,30 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import App from "./App";
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import AddCartReducer from "./components/redux/AddCartReducer";
+import SearchReducer from "./components/redux/SearchReducer";
+import Reducer from "./components/redux/Reducer";
+
+import { createStore, combineReducers } from "redux";
+import { Provider } from "react-redux";
+
+const allReducer = {
+  addcart: AddCartReducer,
+  search: SearchReducer,
+  products: Reducer
+};
+const rootReducer = combineReducers(allReducer);
+const store = createStore(rootReducer);
+store.subscribe(() => console.log("store is", store.getState()));
+console.log(store.getState());
+
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById("root")
+);

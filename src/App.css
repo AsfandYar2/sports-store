@@ -1,22 +1,111 @@
-.App {
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+ul {
+  list-style: none;
+}
+
+/* Forms */
+input {
+  margin: 1.2rem 0;
+}
+
+.form-text {
+  display: block;
+  margin-top: 0.3rem;
+  color: #888;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"],
+button {
+  font: inherit;
+}
+
+/* Navbar */
+.navbar {
+  color: white;
+  /* height: 75px; */
+}
+.bg-primay {
+  background-color: rgb(4, 122, 20);
+}
+.navbar ul {
+  display: flex;
+}
+.navbar ul li {
+  margin: 5px;
+}
+.navbar ul li h3 {
+  margin-right: 10px;
+}
+.card {
+  width: 70%;
+  margin: 5%;
+  margin-top: 3%;
+}
+img {
+  padding: 10px;
+  width: 80%;
+  height: 80%;
+}
+.card:hover {
+  border: 1px solid rgb(31, 139, 4);
+  padding: 2px;
+  opacity: 0.9;
+}
+#btn {
+  margin: 5px;
+  padding: 5px;
+}
+
+#btn:focus {
+  background-color: rgb(54, 124, 54);
+  outline: none;
+}
+input[type="search"] {
+  display: block;
+  padding: 0.8rem;
+  width: 100%;
+  font-size: 2rem;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+}
+input[type="search"]:hover {
+  border-bottom: 1px solid black;
+}
+#modal1 {
+  width: 25%;
+  height: 25%;
+  margin: 5px 0px 0px 68%;
+  border-radius: 10px;
+  color: rgb(233, 227, 227);
+  background-color: rgb(109, 104, 146);
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
+#modal1 h4 {
+  color: rgb(250, 195, 202);
+  margin: 5px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#modal1 button {
+  color: lightblue;
+  background-color: rgb(60, 59, 112);
+  width: 30%;
+  margin: 40px 5px 5px 5px;
+  border: none;
 }
-
-.App-link {
-  color: #09d3ac;
+#modal1 button:hover {
+  background-color: rgb(70, 31, 70);
 }
