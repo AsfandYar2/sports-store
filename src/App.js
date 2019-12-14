@@ -13,9 +13,9 @@ function App() {
   return (
     <div>
       <Router>
-        <HashRouter basename="/">
-          <Navbar />
-        </HashRouter>
+        {/* <HashRouter basename="/"> */}
+        <Navbar />
+        {/* </HashRouter> */}
         <Home />
       </Router>
     </div>
