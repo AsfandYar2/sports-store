@@ -1,9 +1,11 @@
 {
+  "homepage": "https://AsfandYar2.github.io/sports-store",
   "name": "sports-store",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "gh-pages": "^2.1.1",
     "materialize-css": "^1.0.0",
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
@@ -17,6 +19,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
