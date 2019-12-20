@@ -27,7 +27,7 @@ const ProductItem = props => {
   return (
     <div className="col-md-4">
       <div className="card bg-light ">
-        <img src={`/${img}`} alt="img" />
+        <img src={img} alt="img" />
         <div className="card-body">
           <h4
             className={`badge ${
